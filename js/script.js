@@ -76,6 +76,22 @@ gsap.from(".fasilitas", {
   duration: 0.5,
 });
 
+// tentang kami
+gsap.from(".tentang", {
+  opacity: 0,
+  y: 20,
+  delay: 1.8,
+  duration: 0.5,
+});
+
+// kontak
+gsap.from(".kontak", {
+  opacity: 0,
+  y: 20,
+  delay: 1.8,
+  duration: 0.5,
+});
+
 window.addEventListener("scroll", (e) => {
   const nav = document.querySelector(".header");
   if (window.pageYOffset >= 30) {

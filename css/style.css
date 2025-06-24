@@ -259,13 +259,58 @@ button {
 footer {
   background-color: var(--primary-color);
   padding: 10px 0;
-  teaxt-align: center;
+  text-align: center;
   color: white;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
   position: fixed;
+}
+
+/* Kontak Style  */
+.contact-wrap {
+  background: #ebedf0;
+}
+
+.dbox {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0 20px;
+}
+
+.dbox p {
+  margin-bottom: 0;
+}
+
+.dbox p span {
+  font-weight: 500;
+  color: black;
+}
+
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.dbox .icon span {
+  font-size: 20px;
+  color: #fff;
+}
+
+.dbox .text {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .dbox {
+    margin-bottom: 0;
+    padding: 0;
+  }
 }
 
 /* MEDIA QUERY */

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>residence-property</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- ANIMATE ON SCROLL CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="./index.html" style="text-decoration: none">
+            <h2>
+              BagWeb <br />
+              <span id="black-title">Residence.</span>
+            </h2>
+          </a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="./index.html" class="nav_menu_link">Beranda</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tipe_rumah.html" class="nav_menu_link">Tipe Rumah</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tentang.html" class="nav_menu_link">Tentang Kami</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./kontak.html" class="nav_menu_link menu_active"
+                >Kontak</a
+              >
+            </li>
+            <li class="nav_menu_item">
+              <a href="./blog.html" class="nav_menu_link">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="fa fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Section title -->
+    <section class="wrapper-content tentang" id="home">
+      <div class="container-fluid">
+        <div class="row" id="content-title">
+          <div class="col-md-12">
+            <h2>Kontak</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak Content -->
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="wrapper">
+            <div class="row">
+              <!-- ALAMAT -->
+              <div class="col-md-3" data-aos="fade-up">
+                <div class="dbox w-100 text-center">
+                  <div
+                    class="icon d-flex align-items-center justify-content-center"
+                  >
+                    <span class="fa fa-map-marker"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Alamat :</span> Jl. Raya Tuban No. 1, Tuban, Jawa
+                      Timur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- PHONE -->
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="dbox w-100 text-center">
+                  <div
+                    class="icon d-flex align-items-center justify-content-center"
+                  >
+                    <span class="fa fa-phone"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Phone :</span>
+                      <a href="tel://1234567890">+62 123 456 7890</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- EMAIL -->
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="dbox w-100 text-center">
+                  <div
+                    class="icon d-flex align-items-center justify-content-center"
+                  >
+                    <span class="fa fa-paper-plane"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Email :</span>
+                      <a href="mailto:info@bagweb.co.id">info@bagweb.co.id</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- WEBSITE -->
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="dbox w-100 text-center">
+                  <div
+                    class="icon d-flex align-items-center justify-content-center"
+                  >
+                    <span class="fa fa-globe"></span>
+                  </div>
+                  <div class="text">
+                    <p>
+                      <span>Website :</span>
+                      <a href="#">https://bagweb.co.id</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Form dan Maps -->
+            <div class="row mt-5" data-aos="fade-up">
+              <!-- Form -->
+              <div class="col-md-6">
+                <div class="contact-wrap p-4 h-100 bg-light rounded">
+                  <h3>Hubungi Kami</h3>
+                  <p>
+                    Silahkan hubungi kami melalui form di bawah ini. Jika anda
+                    tertarik pada hunian BagWeb Residence
+                  </p>
+                  <form id="contactForm" class="contactForm">
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="name">Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Nama Anda"
+                        />
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Email Anda"
+                        />
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="subject">Subject</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Subjek Pesan"
+                        />
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="message">Pesan</label>
+                        <textarea
+                          class="form-control"
+                          rows="4"
+                          placeholder="Tulis pesan anda disini"
+                        ></textarea>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <button class="btn_home view_more_btn">
+                          Kirim Pesan <i class="fa fa-envelope ms-2"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Google Maps -->
+              <div class="col-md-6">
+                <div class="map-container">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=..."
+                    width="100%"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>Copyright &copy; 2025 BagWeb Residence</div>
+    </footer>
+
+    <!-- ANIMATE ON SCROLL JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
